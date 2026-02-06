@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="id" data-bs-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RunTravel Malang - Tour & Travel Agent</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="font-display">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark-glass transition-all" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+                <span class="material-icons text-primary fs-2">travel_explore</span>
+                <span class="fw-bold fs-4">Run<span class="text-primary">Travel</span></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-4">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="paket.html">Paket</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="testimoni.html">Testimoni</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center">
+                    <a href="https://wa.me/6282211221909" target="_blank"
+                        class="btn btn-primary rounded-pill px-4 py-2 fw-bold d-flex align-items-center gap-2 shadow-sm text-dark">
+                        <span class="material-icons fs-5">call</span>
+                        Hubungi Kami
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section d-flex align-items-center text-center position-relative text-white">
+        <div class="container position-relative z-2 mt-5">
+            <span
+                class="badge bg-secondary bg-opacity-50 border border-secondary border-opacity-50 rounded-pill px-3 py-2 mb-4 backdrop-blur">
+                #1 Travel Agent Malang & Batu
+            </span>
+            <h1 class="display-3 fw-bold mb-4 drop-shadow">
+                RunTravel Malang - Agen Perjalanan Terbaik di Malang & Batu
+            </h1>
+            <p class="lead mb-5 mx-auto opacity-90" style="max-width: 700px;">
+                Nikmati paket wisata Malang Batu Bromo eksklusif dengan pelayanan profesional. Rencanakan liburan impian
+                Anda bersama kami sekarang.
+            </p>
+            <a href="#paket"
+                class="btn btn-primary btn-lg rounded-pill px-5 py-3 fw-bold text-dark shadow-lg d-inline-flex align-items-center gap-2 hover-up">
+                Selengkapnya
+                <span class="material-icons">arrow_forward</span>
+            </a>
+        </div>
+        <div class="wave-bottom">
+            <svg data-name="Layer 1" preserveAspectRatio="none" viewBox="0 0 1200 120"
+                xmlns="http://www.w3.org/2000/svg">
+                <path class="shape-fill"
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z">
+                </path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-5" id="about">
+        <div class="container py-lg-5">
+            <div class="card border-0 shadow-lg rounded-4 overflow-hidden">
+                <div class="row g-0">
+                    <div class="col-lg-6 bg-secondary text-white p-5 position-relative overflow-hidden">
+                        <div class="blob-bg"></div>
+                        <h2 class="fw-bold mb-5 position-relative z-1">KENAPA MEMILIH RUNTRAVEL?</h2>
+                        <div class="vstack gap-4 position-relative z-1">
+                            <div class="d-flex gap-3">
+                                <div
+                                    class="feature-icon bg-white bg-opacity-25 text-warning rounded-circle d-flex align-items-center justify-content-center flex-shrink-0">
+                                    <span class="material-icons">assignment_turned_in</span>
+                                </div>
+                                <div>
+                                    <h5 class="fw-bold text-warning mb-1">PROSES BOOKING MUDAH</h5>
+                                    <p class="small mb-0 opacity-90">Pesan paket tour jadi lebih mudah. Anda tinggal
+                                        pilih paketnya, cek harga dan lakukan pemesanan.</p>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-3">
+                                <div
+                                    class="feature-icon bg-white bg-opacity-25 text-warning rounded-circle d-flex align-items-center justify-content-center flex-shrink-0">
+                                    <span class="material-icons">support_agent</span>
+                                </div>
+                                <div>
+                                    <h5 class="fw-bold text-warning mb-1">PELAYANAN TERBAIK</h5>
+                                    <p class="small mb-0 opacity-90">Tim kami memberikan pelayanan dan pengalaman tak
+                                        terlupakan di setiap momen liburan.</p>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-3">
+                                <div
+                                    class="feature-icon bg-white bg-opacity-25 text-warning rounded-circle d-flex align-items-center justify-content-center flex-shrink-0">
+                                    <span class="material-icons">verified_user</span>
+                                </div>
+                                <div>
+                                    <h5 class="fw-bold text-warning mb-1">LEGAL DAN PROFESIONAL</h5>
+                                    <p class="small mb-0 opacity-90">RunTravel memiliki tim tersertifikasi resmi.
+                                        Memastikan liburan Anda aman dan nyaman.</p>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-3">
+                                <div
+                                    class="feature-icon bg-white bg-opacity-25 text-warning rounded-circle d-flex align-items-center justify-content-center flex-shrink-0">
+                                    <span class="material-icons">emoji_events</span>
+                                </div>
+                                <div>
+                                    <h5 class="fw-bold text-warning mb-1">BERPENGALAMAN SEJAK 2015</h5>
+                                    <p class="small mb-0 opacity-90">Melayani ribuan klien keluarga dan perusahaan
+                                        merencanakan tour & event terbaik mereka.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 bg-white p-5 d-flex flex-column justify-content-center align-items-center text-center position-relative">
+                        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCVyutd1z3ImYEOdRDncbnrbIijGRGisz7QSMudLkkjDryQ0oxHcjIkCzuRj6GKV9RSmckh6oKTmrd2oddPNL1zQ_fonzqxQDOu9ex8ktkgxNgRPzct072mfLs9ns0sBHOTqWq0Bu-3nPHkGxaLg6qn0_hsASRZC8PvfRTDtlMe0YMV76EOdFCA7BbD3b9NW0NGIX1HhSPyZI7FBLxO5SXuEQFF7cYNaG9aGi1pLQT7tin00-YvTBFIJAAu1nxEhYis1ENUyv1mCA"
+                            alt="Background"
+                            class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover opacity-10">
+                        <div class="position-relative z-1">
+                            <h3 class="fw-bold mb-4 text-dark">Mengapa Anda Harus Memilih <br><span
+                                    class="text-secondary">RunTravel</span> sebagai Provider Anda?</h3>
+                            <div
+                                class="position-relative d-inline-block group cursor-pointer video-thumbnail shadow-lg rounded-4 overflow-hidden">
+                                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuB5Hr9UQvqCjlDOi07lR9iIZ-rHVC83sf2yLaWexh4SDryhljyp8SR-yKgGujJfEtwTdG7kkhkJQU9o88OqHfUIh6ZTRPw1FhPMbmCgwCqVlxZTrUxndRwHJoRWwepD7jfT7DNK9_nEOkLMIaeE9hBQo4XI4oSKVqd4DuJYbBdqqK1vdiIWWougasjgTlW6x7na_PuwV5i4MkF09xAyWRH1Bw7JVp0KrtIAhyxwnRDUvzMl30uhN-wQtF6dxcaIBbTWtiskxcmZaA"
+                                    alt="Video Thumbnail" class="img-fluid rounded-4">
+                                <div class="overlay d-flex align-items-center justify-content-center">
+                                    <button
+                                        class="btn btn-primary rounded-circle p-3 d-flex align-items-center justify-content-center shadow-lg play-btn">
+                                        <span class="material-icons fs-2 text-dark">play_arrow</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <p class="mt-3 text-muted fw-medium">Lihat keseruan liburan bersama kami</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section class="py-5 bg-light" id="paket">
+        <div class="container py-lg-5">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold mb-2">PAKET TOUR FAVORIT</h2>
+                <p class="text-muted">Pilihan Paket Tour Terbaik Yang Siap Memanjakan Liburan Anda di Malang & Batu</p>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <!-- Card 1 -->
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-hover rounded-4 overflow-hidden">
+                        <div class="position-relative card-img-top-wrapper">
+                            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAXhWY5k0_PgohxkfnKfNCIzkrWRxstOWVoEOtZTtwHIHVFPIEL4wl_Og9T7OTSCyJD_4v5kz4SKsg13lefQtJcvniiXA-lmSdzDsBm5oXJxXGoitx-sqk4UJCxp2eKeWiT_3qm5MTj2Uk9T94-YrVOxVs9p3zpU0aMLmkkXR92uwAjwjmQCdLzBizbEILVj2zNV3kUekYnUiIfE-ZC8-CpsGY5LGjVApcERzu9aPPlPyqh96pdt5oWIY-8l15_LZ5PXC1FieDolQ"
+                                class="card-img-top object-fit-cover" alt="Bromo">
+                            <span
+                                class="badge bg-primary text-dark position-absolute top-0 end-0 m-3 fw-bold shadow-sm">POPULER</span>
+                        </div>
+                        <div class="card-body p-4">
+                            <h5 class="card-title fw-bold mb-3 line-clamp-2" style="min-height: 3rem;">Paket Wisata
+                                Bromo Midnight Sunrise</h5>
+                            <div class="d-flex justify-content-between pt-3 border-top text-muted small">
+                                <div class="d-flex align-items-center gap-1">
+                                    <span class="material-icons fs-6 text-secondary">schedule</span> 12 Jam
+                                </div>
+                                <div class="d-flex align-items-center gap-1">
+                                    <span class="material-icons fs-6 text-secondary">place</span> Probolinggo
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-hover rounded-4 overflow-hidden">
+                        <div class="position-relative card-img-top-wrapper">
+                            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCddJsEXcXxE6j_pn5IZIlWIRNJ97NAfSbJklNwPS4F7CuSs5W3M6oKWTgAlPZe-UXXtjFj1aloASSEerFs8yePncgkHKrmT1fE3D47jal_30GQgmNVFjF1czOlYGI8ZecJmx1fx5fmlRXIZVQmnz_fElNJbpPLjdzPgcjhJjl0IcOaW5q9gDfu9DKihNg9Zr_yyukG2_qDkvhgu9JhTyMT7NG-WXK-LJK3FHtw0TRUHXkc4YUzlmj7EE24iwT3zoL3Dv453a2kAA"
+                                class="card-img-top object-fit-cover" alt="Malang City">
+                        </div>
+                        <div class="card-body p-4">
+                            <h5 class="card-title fw-bold mb-3 line-clamp-2" style="min-height: 3rem;">Paket Wisata
+                                Malang Batu 2 Hari 1 Malam</h5>
+                            <div class="d-flex justify-content-between pt-3 border-top text-muted small">
+                                <div class="d-flex align-items-center gap-1">
+                                    <span class="material-icons fs-6 text-secondary">schedule</span> 2H 1M
+                                </div>
+                                <div class="d-flex align-items-center gap-1">
+                                    <span class="material-icons fs-6 text-secondary">place</span> Malang
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-hover rounded-4 overflow-hidden">
+                        <div class="position-relative card-img-top-wrapper">
+                            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAw25Oj04aSXxgJtIuTLrbm8W2ETzlnfoJDv7PZfMaPtkJdLzJHzURPv7AJ1UUGLwG5uh6ECaOv18MSQewRkJUHJ55xqbhDgZdp2AmKb1TnDC6PNboBr4NKl6W5nvRMYIi4EEabkXR1Wtv1xIY0R7oBHXxquf-gc-0OlMVo1Jz7-U8UYU1jaavaH7SHNdKBHM5TOP8kTzBpIqINLSxUtT5ffCWP0INMr4mJiS9v6erHO35izDEUotGygksBfs2WKEQ3NgsG9my7Ew"
+                                class="card-img-top object-fit-cover" alt="Jatim Park">
+                        </div>
+                        <div class="card-body p-4">
+                            <h5 class="card-title fw-bold mb-3 line-clamp-2" style="min-height: 3rem;">Paket Keluarga
+                                Jatim Park & Museum Angkut</h5>
+                            <div class="d-flex justify-content-between pt-3 border-top text-muted small">
+                                <div class="d-flex align-items-center gap-1">
+                                    <span class="material-icons fs-6 text-secondary">schedule</span> 1 Hari
+                                </div>
+                                <div class="d-flex align-items-center gap-1">
+                                    <span class="material-icons fs-6 text-secondary">place</span> Batu
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-hover rounded-4 overflow-hidden">
+                        <div class="position-relative card-img-top-wrapper">
+                            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDsDwU8SgklZdmPd58-lZyBxQmerIICEY4KlUVu8lQg6gwvcwgqdHeAHeecW6w9beRqb1qqFfe4TatT5N5vcssGyCWivP5pWXxCLd-T-EhMvDps7b0DCxKGt0nFVlwSY4mONiDia9bA1azng16hpSwdIf08-tZwWnhGKTwaW_LTuOczpQFQaMoXsb8NquCj-s0nMutuS1E308ExmMuljoONBsDwuB8ttRm7Webtgk24BGfFbkGE3EXZedOySV3SsKenGYJAsWBtGw"
+                                class="card-img-top object-fit-cover" alt="Pantai Selatan">
+                        </div>
+                        <div class="card-body p-4">
+                            <h5 class="card-title fw-bold mb-3 line-clamp-2" style="min-height: 3rem;">Paket Wisata
+                                Pantai Selatan Malang 3 Hari 2 Malam</h5>
+                            <div class="d-flex justify-content-between pt-3 border-top text-muted small">
+                                <div class="d-flex align-items-center gap-1">
+                                    <span class="material-icons fs-6 text-secondary">schedule</span> 3H 2M
+                                </div>
+                                <div class="d-flex align-items-center gap-1">
+                                    <span class="material-icons fs-6 text-secondary">place</span> Malang Sel.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <a href="paket.html"
+                    class="btn btn-outline-primary rounded-pill px-5 py-2 fw-bold border-2 text-dark btn-hover-filled">Lihat
+                    Semua Paket</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section class="py-5 position-relative bg-sky-900 text-white overflow-hidden">
+        <div class="bg-pattern opacity-10 position-absolute w-100 h-100 start-0 top-0"></div>
+        <div class="container py-lg-5 position-relative z-1">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold mb-2">DESTINASI TOUR FAVORIT</h2>
+                <p class="text-white-50">Pilihan Tempat Terbaik Untuk Anda Menjelajahi Pesona Malang Raya</p>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-4">
+                    <div
+                        class="destination-card position-relative rounded-4 overflow-hidden h-100 shadow-lg group-hover-zoom cursor-pointer">
+                        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuA3_4IgdUYWjdWr-0tEiiCpwFng0afq9anNYUc122wvZarZb2gpx1SO4llW_1TOvsVZhUbd06npA8DHHKI05qJwpPcRMx03cZrgJlQ1jP9w15cB1lv5SBd2X1Mcl05f1Of6zKY-RcUMuu5jf6gL9OI80y_Snj5qa34opL2uB8Y-8HLx4nTnqEemMARBikC26E7wkRN_aoiFeDCrH31CEJC5cQVmSctcgPAJi-g2Us7hjlqFwzCtgrhrUeKbvWNQAS1HmYP5kRAKfA"
+                            alt="Batu" class="w-100 h-100 object-fit-cover transition-transform">
+                        <div
+                            class="overlay-gradient d-flex flex-column justify-content-end align-items-center p-4 text-center">
+                            <h3 class="fw-bold mb-2 drop-shadow">Batu</h3>
+                            <span
+                                class="badge bg-white bg-opacity-25 border border-white border-opacity-50 backdrop-blur rounded-pill fw-light">47
+                                Pilihan Paket Tour</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-md-n4">
+                    <div
+                        class="destination-card position-relative rounded-4 overflow-hidden h-100 shadow-lg group-hover-zoom cursor-pointer">
+                        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuD8lkUGFuKTSDrEOkbI0zAy8JMiDDUxeq64w49gn6zCwOU1C0yVbI1Xx7SdBvGLYAfi7d2FVvwEASmOicy8AqCm7MS7JGc-8kXDVOj_Zz1gBKg631gGVWPcSmAk5MvvjTmyJ1I-f0SfT0CZ35sILIy3Y2u4t1jIojr6_VoImusMYMKj2OfU8yOpviYYODNT1ICz7Xo98ZPkKw6QzWtIlJqHpCqylXagLsBaJ1GzGhVPnyIglsXlPiZ9fDDfG-T088ycP1hENr0AYg"
+                            alt="Bromo" class="w-100 h-100 object-fit-cover transition-transform">
+                        <div
+                            class="overlay-gradient d-flex flex-column justify-content-end align-items-center p-4 text-center">
+                            <h3 class="fw-bold mb-2 drop-shadow">Bromo</h3>
+                            <span
+                                class="badge bg-white bg-opacity-25 border border-white border-opacity-50 backdrop-blur rounded-pill fw-light">29
+                                Pilihan Paket Tour</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div
+                        class="destination-card position-relative rounded-4 overflow-hidden h-100 shadow-lg group-hover-zoom cursor-pointer">
+                        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCf8WThAGzVDbpH7lv6bG77yJR7NsIPfnnGoLCA2XAMCIPVeubD-7E9NcZeHQbbPUJolBIBwIaFuuAu960RdRkWr1jocMaevl3gJcVe8d8PP5oxGLuCl0oEG29O4Hrm5zRSCx6RTVwmA_8DY-iGr1S_Reb_OhgRGXAR9aqVED2ytxoxTTdYiQY7nMeYONDD9h9QjxMLO_g5C2KhLIFIR1IqU8e1IVgFYFCeYbc1kJwx1oM6d4RPGsVZXHuD-5kBLCJiW2Xhf3slSA"
+                            alt="Malang" class="w-100 h-100 object-fit-cover transition-transform">
+                        <div
+                            class="overlay-gradient d-flex flex-column justify-content-end align-items-center p-4 text-center">
+                            <h3 class="fw-bold mb-2 drop-shadow">Malang</h3>
+                            <span
+                                class="badge bg-white bg-opacity-25 border border-white border-opacity-50 backdrop-blur rounded-pill fw-light">35
+                                Pilihan Paket Tour</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white pt-5 pb-3 border-top border-secondary">
+        <div class="container">
+            <div class="row gy-5 mb-5">
+                <div class="col-lg-4">
+                    <div class="d-flex align-items-center gap-2 mb-4">
+                        <span class="material-icons text-primary fs-1">travel_explore</span>
+                        <span class="fs-2 fw-bold tracking-wide">Run<span class="text-primary">Travel</span></span>
+                    </div>
+                    <p class="text-secondary-light leading-relaxed mb-4">
+                        RunTravel merupakan tour & travel organizer profesional yang berpengalaman sejak tahun 2015.
+                        Kami berkomitmen memberikan pengalaman liburan terbaik di Malang dan Batu.
+                    </p>
+                    <div class="d-flex gap-3 social-icons">
+                        <a href="#"
+                            class="btn btn-secondary rounded-circle d-flex align-items-center justify-content-center p-0"
+                            style="width: 40px; height: 40px;"><span
+                                class="material-icons fs-5 text-white">facebook</span></a>
+                        <a href="#"
+                            class="btn btn-secondary rounded-circle d-flex align-items-center justify-content-center p-0"
+                            style="width: 40px; height: 40px;"><span
+                                class="material-icons fs-5 text-white">camera_alt</span></a>
+                        <a href="#"
+                            class="btn btn-secondary rounded-circle d-flex align-items-center justify-content-center p-0"
+                            style="width: 40px; height: 40px;"><span
+                                class="material-icons fs-5 text-white">smart_display</span></a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="fw-bold mb-4 text-white border-start border-4 border-primary ps-3">Navigasi</h5>
+                    <ul class="list-unstyled d-flex flex-column gap-2 text-secondary-light">
+                        <li><a href="#" class="text-decoration-none text-light hover-primary transition">Beranda</a>
+                        </li>
+                        <li><a href="#" class="text-decoration-none text-light hover-primary transition">Paket Tour</a>
+                        </li>
+                        <li><a href="#" class="text-decoration-none text-light hover-primary transition">Galeri Foto</a>
+                        </li>
+                        <li><a href="#" class="text-decoration-none text-light hover-primary transition">Blog Wisata</a>
+                        </li>
+                        <li><a href="#" class="text-decoration-none text-light hover-primary transition">Tentang
+                                Kami</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="fw-bold mb-4 text-white border-start border-4 border-primary ps-3">Hubungi Kami</h5>
+                    <ul class="list-unstyled d-flex flex-column gap-3 text-secondary-light">
+                        <li class="d-flex gap-3">
+                            <span class="material-icons text-primary">location_on</span>
+                            <span>Jl. Wisata Indah No. 99, Kota Batu, Jawa Timur, Indonesia</span>
+                        </li>
+                        <li class="d-flex align-items-center gap-3">
+                            <span class="material-icons text-primary">phone</span>
+                            <span class="fs-5 fw-bold text-white">0822-1122-1909</span>
+                        </li>
+                        <li class="d-flex align-items-center gap-3">
+                            <span class="material-icons text-primary">email</span>
+                            <span>info@runtravel.id</span>
+                        </li>
+                        <li class="d-flex align-items-center gap-3">
+                            <span class="material-icons text-primary">schedule</span>
+                            <span>Senin - Sabtu: 09.00 - 17.00 WIB</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-top border-secondary border-opacity-25 pt-4 text-center">
+                <p class="text-secondary small mb-0">&copy; 2026 RunTravel Malang. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Buttons -->
+    <div class="floating-container">
+        <!-- Scroll Top -->
+        <a href="#"
+            class="btn btn-secondary text-white rounded-circle shadow-lg d-flex align-items-center justify-content-center mb-3 back-to-top"
+            style="width: 50px; height: 50px;">
+            <span class="material-icons">arrow_upward</span>
+        </a>
+
+        <!-- WA Button -->
+        <a href="https://wa.me/6282211221909" target="_blank"
+            class="btn btn-success text-white rounded-pill shadow-lg d-flex align-items-center gap-2 px-3 py-2 wa-button pulse-anim">
+            <span class="fw-bold d-none d-md-block">Chat Kami</span>
+            <svg class="bi bi-whatsapp" width="24" height="24" fill="currentColor" viewBox="0 0 16 16"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+            </svg>
+        </a>
+    </div>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        // Back To Top Visibility
+        window.onscroll = function () {
+            var backToTop = document.querySelector('.back-to-top');
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                backToTop.style.display = 'flex';
+                backToTop.style.opacity = '1';
+            } else {
+                backToTop.style.opacity = '0';
+                setTimeout(() => {
+                    if (backToTop.style.opacity === '0') backToTop.style.display = 'none';
+                }, 300);
+            }
+        };
+
+        // Sticky Navbar Style
+        window.addEventListener('scroll', function () {
+            const nav = document.getElementById('mainNav');
+            if (window.scrollY > 50) {
+                nav.classList.add('bg-dark-scrolled', 'shadow-sm');
+                nav.classList.remove('bg-dark-glass');
+            } else {
+                nav.classList.remove('bg-dark-scrolled', 'shadow-sm');
+                nav.classList.add('bg-dark-glass');
+            }
+        });
+    </script>
+</body>
+
+</html>
